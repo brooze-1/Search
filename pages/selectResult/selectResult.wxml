@@ -1,0 +1,22 @@
+<!--pages/selectResult/selectResult.wxml-->
+<view class="search_row">
+    <input value="{{inputValue}}" bindinput="handleInput" class="inp" placeholder="请输入"></input>
+    <button class="btn" bind:tap="handleCanle">取消</button>
+</view>
+<view class="search_content">
+    <view class="search_item" wx:for="{{searchResult}}" wx:key="idx" wx:for-index="idx">
+      <view>
+          <view class="data-meta" catchtap="getselectdata" data-goodsInName="{{item.goodsInName}}" data-goodsInType="{{item.goodsInType}}" data-goodsInUnit="{{item.goodsInUnit}} " data-goodsInSpecs="{{item.goodsInSpecs}}" data-goodsInExpiryDate="{{item.goodsInExpiryDate}}" data-goodsInRemaining="{{item.goodsInRemaining}}" data-goodsInBatch="{{item.goodsInBatch}}" data-goodsInCompany="{{item.goodsInCompany}}" data-goodsInPrice="{{item.goodsInPrice}}">
+            <view class="display0">{{idx + 1}}</view>
+            <view class="display0">{{item.goodsInName}}</view>
+            <view class="display0">{{item.goodsInRemaining}}</view>
+            <view class="display1">{{item.goodsInUnit}}/{{item.goodsInSpecs}}</view>
+            <view class="display1">{{item.goodsInExpiryDate}}</view>
+            <view class="nodisplay">{{item.goodsInBatch}}</view>
+            <view class="display1">{{item.goodsInCompany}}</view>
+            <view class="nodisplay">{{item.goodsInPrice}}</view>
+        </view>
+      </view>
+    </view>
+</view>
+

@@ -1,0 +1,77 @@
+/* pages/pre_select/pre_select.wxss */
+
+/* 搜索框下面的头标签样式 */
+.topfiled{
+  display: flex;
+  height: 90%;
+  color: #333;
+  text-align: center;
+}
+
+.topfiled .display{
+  width: 19.5%;
+  color: #333;
+  flex-direction: column;
+  text-align: center;
+  line-height: 100rpx;
+  overflow:hidden;  /*超出隐藏*/
+  white-space:nowrap;  /*溢出不换行*/
+  text-overflow:ellipsis;  /*溢出显示用省略号*/
+}
+
+.topfiled .nodisplay{
+  width: 18%;
+  color: #333;
+  flex-direction: column;
+  text-align: center;
+  line-height: 100rpx;
+  overflow:hidden;  /*超出隐藏*/
+  white-space:nowrap;  /*溢出不换行*/
+  text-overflow:ellipsis;  /*溢出显示用省略号*/
+  display: none;
+}
+
+/* 数据展示栏样式 */
+.data{
+  margin-top: -20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.dataItem {
+  margin-top: 10px;
+  flex-direction: row;
+  height: 40px;
+  font-size: 28rpx;
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 30rpx;
+}
+
+.goods-meta{
+  display: flex;
+  height: 100%;
+  color: #333;
+  text-align: center;
+}
+
+.goods-meta .display{
+  width: 19.5%;
+  color: #333;
+  flex-direction: column;
+  text-align: center;
+  line-height: 100rpx;
+  overflow:hidden;  /*超出隐藏*/
+  white-space:nowrap;  /*溢出不换行*/
+  text-overflow:ellipsis;  /*溢出显示用省略号*/
+}
+.goods-meta .nodisplay{
+  width: 18%;
+  color: #333;
+  flex-direction: column;
+  text-align: center;
+  line-height: 100rpx;
+  overflow:hidden;  /*超出隐藏*/
+  white-space:nowrap;  /*溢出不换行*/
+  text-overflow:ellipsis;  /*溢出显示用省略号*/
+  display: none;
+}

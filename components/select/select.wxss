@@ -1,0 +1,17 @@
+/* components/select.wxss */
+.search_wrap {
+  width: 100%;
+  height: 80rpx;
+  background-color: #eb4450;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search_wrap navigator {
+  text-align: center;
+  padding: 10rpx;
+  width: 90%;
+  background-color: #fff;
+  color: #6b6b6b;
+  border-radius: 20rpx;
+}

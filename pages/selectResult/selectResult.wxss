@@ -1,0 +1,83 @@
+/* pages/selectResult/selectResult.wxss */
+page {
+  background-color: #ebebeb;
+  padding: 20rpx;
+}
+.search_row {
+  height: 60rpx;
+  display: flex;
+}
+.search_row .inp {
+  background-color: #fff;
+  height: 100%;
+  padding-left: 20rpx;
+  flex: 4;
+  border-radius: 5rpx;
+}
+.search_row .btn {
+  width: 120rpx;
+  height: 100%;
+  font-size: 26rpx;
+  font-weight: normal;
+  padding: 0;
+  margin: 0 10rpx 0 10rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+.search_content {
+  margin-top: 30rpx;
+}
+.search_content .search_item {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: flex;
+  background-color: #fff;
+  border-bottom: 1px solid #7e7e7e;
+  height: 60rpx;
+  padding: 10rpx;
+  font-size: 26rpx;
+}
+/* 搜索数据展示的样式 */
+.data-meta{
+  display: flex;
+  height: 100%;
+  color: #333;
+  text-align: center;
+  
+}
+.data-meta view{
+  border-radius: 20%;
+}
+
+.data-meta .display0 {
+  padding-left: 2rpx;
+  padding-right: 2rpx;
+  margin-top: -15px;
+  width: 20%;
+  color: #333;
+  flex-direction: column;
+  text-align: center;
+  line-height: 100rpx;
+  overflow:hidden;  /*超出隐藏*/
+  white-space:nowrap;  /*溢出不换行*/
+  text-overflow:ellipsis;  /*溢出显示用省略号*/
+}
+.data-meta .display1 {
+  padding-left: 10rpx;
+  padding-right: 8rpx;
+  margin-top: -15px;
+  width: 20%;
+  color: #333;
+  flex-direction: column;
+  text-align: center;
+  line-height: 100rpx;
+  overflow:hidden;  /*超出隐藏*/
+  white-space:nowrap;  /*溢出不换行*/
+  text-overflow:ellipsis;  /*溢出显示用省略号*/
+}
+.data-meta .nodisplay{
+  display: none;
+}
