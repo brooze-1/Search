@@ -10,7 +10,7 @@
 
 <center><img src="https://img-blog.csdnimg.cn/f1b426f8d2cd47b786ae5241c03ddc95.png" width="50%"></center>
 
-项目博客地址为：[微信小程序之图片上传功能](https://blog.csdn.net/booze_/article/details/127856744),同时也欢迎大家访问我的博客。
+项目博客地址为：[微信小程序之页面内搜索查询功能](https://blog.csdn.net/booze_/article/details/127878404),同时也欢迎大家访问我的博客。
 
 
 
